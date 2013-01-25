@@ -32,6 +32,11 @@
 	},
 	"file_history":
 	[
+		"/D/Mis documentos/Development/RoR/sample_app/README.markdown",
+		"/D/Mis documentos/Development/RoR/sample_app/Gemfile",
+		"/D/Mis documentos/Development/RoR/sample_app/.gitignore",
+		"/D/Mis documentos/Development/RoR/sample_app/README.rdoc",
+		"/D/Mis documentos/Development/RoR/sample_app/config.ru",
 		"/D/Mis documentos/Development/RoR/demo_app/app/models/user.rb",
 		"/D/Mis documentos/Development/RoR/demo_app/app/models/micropost.rb",
 		"/D/Mis documentos/Development/RoR/demo_app/app/controllers/microposts_controller.rb",
@@ -103,7 +108,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -142,6 +147,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"read",
+				"README.markdown"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
 			[
 				"applica",
 				"app/controllers/application_controller.rb"
