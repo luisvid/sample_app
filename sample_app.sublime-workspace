@@ -7,6 +7,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1835,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/pages_controller.rb",
+			"settings":
+			{
+				"buffer_size": 88,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/controllers/pages_controller_spec.rb",
+			"settings":
+			{
+				"buffer_size": 312,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1179,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -32,9 +64,15 @@
 	},
 	"file_history":
 	[
+		"/D/Mis documentos/Development/RoR/sample_app/app/controllers/application_controller.rb",
+		"/D/Mis documentos/Development/RoR/sample_app/app/views/pages/home.html.erb",
+		"/D/Mis documentos/Development/RoR/sample_app/spec/controllers/pages_controller_spec.rb",
+		"/D/Mis documentos/Development/RoR/sample_app/app/controllers/pages_controller.rb",
+		"/D/Mis documentos/Development/RoR/sample_app/config/routes.rb",
+		"/D/Mis documentos/Development/RoR/sample_app/.gitignore",
+		"/D/Mis documentos/Development/RoR/sample_app/public/hello.html",
 		"/D/Mis documentos/Development/RoR/sample_app/README.markdown",
 		"/D/Mis documentos/Development/RoR/sample_app/Gemfile",
-		"/D/Mis documentos/Development/RoR/sample_app/.gitignore",
 		"/D/Mis documentos/Development/RoR/sample_app/README.rdoc",
 		"/D/Mis documentos/Development/RoR/sample_app/config.ru",
 		"/D/Mis documentos/Development/RoR/demo_app/app/models/user.rb",
@@ -97,8 +135,125 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								924,
+								924
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "app/controllers/pages_controller.rb",
+					"settings":
+					{
+						"buffer_size": 88,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "spec/controllers/pages_controller_spec.rb",
+					"settings":
+					{
+						"buffer_size": 312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								459,
+								459
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -119,11 +274,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -148,6 +310,30 @@
 		"selected_items":
 		[
 			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"pages",
+				"spec/controllers/pages_controller_spec.rb"
+			],
+			[
+				"home",
+				"app/views/pages/home.html.erb"
+			],
+			[
+				"",
+				".gitignore"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
 				"read",
 				"README.markdown"
 			],
@@ -170,10 +356,6 @@
 			[
 				"micropos",
 				"app/controllers/microposts_controller.rb"
-			],
-			[
-				"routes",
-				"config/routes.rb"
 			],
 			[
 				"users_con",
