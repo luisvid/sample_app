@@ -3,40 +3,85 @@
 	{
 		"selected_items":
 		[
+			[
+				"ti",
+				"title"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "config/routes.rb",
+			"file": "spec/controllers/pages_controller_spec.rb",
 			"settings":
 			{
-				"buffer_size": 1835,
-				"line_ending": "Unix"
+				"buffer_size": 1425,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/controllers/pages_controller.rb",
 			"settings":
 			{
-				"buffer_size": 88,
+				"buffer_size": 215,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/helpers/application_helper.rb",
+			"settings":
+			{
+				"buffer_size": 229,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "spec/controllers/pages_controller_spec.rb",
+			"file": "example_user.rb",
 			"settings":
 			{
-				"buffer_size": 312,
-				"line_ending": "Unix"
+				"buffer_size": 204,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Gemfile",
+			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 1179,
-				"line_ending": "Unix"
+				"buffer_size": 281,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 147,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/pages/contact.html.erb",
+			"settings":
+			{
+				"buffer_size": 152,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/pages/about.html.erb",
+			"settings":
+			{
+				"buffer_size": 274,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/pages/help.html.erb",
+			"settings":
+			{
+				"buffer_size": 247,
+				"line_ending": "Windows",
+				"name": "<h1>Help</h1>"
 			}
 		}
 	],
@@ -64,15 +109,17 @@
 	},
 	"file_history":
 	[
+		"/D/Mis documentos/Development/RoR/sample_app/config/routes.rb",
+		"/D/Mis documentos/Development/RoR/sample_app/app/helpers/pages_helper.rb",
+		"/D/Mis documentos/Development/RoR/sample_app/Gemfile",
+		"/D/Mis documentos/Development/RoR/sample_app/app/views/pages/about.html.erb",
 		"/D/Mis documentos/Development/RoR/sample_app/app/controllers/application_controller.rb",
 		"/D/Mis documentos/Development/RoR/sample_app/app/views/pages/home.html.erb",
 		"/D/Mis documentos/Development/RoR/sample_app/spec/controllers/pages_controller_spec.rb",
 		"/D/Mis documentos/Development/RoR/sample_app/app/controllers/pages_controller.rb",
-		"/D/Mis documentos/Development/RoR/sample_app/config/routes.rb",
 		"/D/Mis documentos/Development/RoR/sample_app/.gitignore",
 		"/D/Mis documentos/Development/RoR/sample_app/public/hello.html",
 		"/D/Mis documentos/Development/RoR/sample_app/README.markdown",
-		"/D/Mis documentos/Development/RoR/sample_app/Gemfile",
 		"/D/Mis documentos/Development/RoR/sample_app/README.rdoc",
 		"/D/Mis documentos/Development/RoR/sample_app/config.ru",
 		"/D/Mis documentos/Development/RoR/demo_app/app/models/user.rb",
@@ -135,23 +182,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "config/routes.rb",
+					"file": "spec/controllers/pages_controller_spec.rb",
 					"settings":
 					{
-						"buffer_size": 1835,
+						"buffer_size": 1425,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								924,
-								924
+								1245,
+								1245
 							]
 						],
 						"settings":
@@ -165,19 +212,67 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
 					"file": "app/controllers/pages_controller.rb",
 					"settings":
 					{
-						"buffer_size": 88,
+						"buffer_size": 215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/helpers/application_helper.rb",
+					"settings":
+					{
+						"buffer_size": 229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "example_user.rb",
+					"settings":
+					{
+						"buffer_size": 204,
 						"regions":
 						{
 						},
@@ -197,28 +292,32 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
-					"buffer": 2,
-					"file": "spec/controllers/pages_controller_spec.rb",
+					"buffer": 4,
+					"file": "app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 312,
+						"buffer_size": 281,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								281,
+								281
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -227,26 +326,103 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "Gemfile",
+					"buffer": 5,
+					"file": "app/views/pages/home.html.erb",
 					"settings":
 					{
-						"buffer_size": 1179,
+						"buffer_size": 147,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								459,
-								459
+								147,
+								147
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/pages/contact.html.erb",
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/views/pages/about.html.erb",
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/pages/help.html.erb",
+					"settings":
+					{
+						"buffer_size": 247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								247,
+								247
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<h1>Help</h1>",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -310,6 +486,22 @@
 		"selected_items":
 		[
 			[
+				"example",
+				"example_user.rb"
+			],
+			[
+				"applica",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"about",
+				"app/views/pages/about.html.erb"
+			],
+			[
+				"hom",
+				"app/views/pages/home.html.erb"
+			],
+			[
 				"gemfi",
 				"Gemfile"
 			],
@@ -340,10 +532,6 @@
 			[
 				"gem",
 				"Gemfile"
-			],
-			[
-				"applica",
-				"app/controllers/application_controller.rb"
 			],
 			[
 				"micr",
@@ -388,7 +576,7 @@
 		],
 		"width": 380.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
