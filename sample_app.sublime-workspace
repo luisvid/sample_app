@@ -36,7 +36,10 @@
 			}
 		},
 		{
+			"contents": "class User\n  attr_accessor :name, :email\n\n  def initialize(attributes = {})\n    @name  = attributes[:name]\n    @email = attributes[:email]\n  end\n\n  def formatted_email\n    \"#{@name} <#{@email}>\"\n  end\nend",
 			"file": "example_user.rb",
+			"file_size": 215,
+			"file_write_time": 130040318473299270,
 			"settings":
 			{
 				"buffer_size": 204,
@@ -47,7 +50,7 @@
 			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 281,
+				"buffer_size": 955,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +58,7 @@
 			"file": "app/views/pages/home.html.erb",
 			"settings":
 			{
-				"buffer_size": 147,
+				"buffer_size": 219,
 				"line_ending": "Windows"
 			}
 		},
@@ -182,7 +185,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -279,8 +282,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								204,
+								204
 							]
 						],
 						"settings":
@@ -296,7 +299,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -304,15 +307,15 @@
 					"file": "app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 281,
+						"buffer_size": 955,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								281,
-								281
+								489,
+								489
 							]
 						],
 						"settings":
@@ -330,15 +333,15 @@
 					"file": "app/views/pages/home.html.erb",
 					"settings":
 					{
-						"buffer_size": 147,
+						"buffer_size": 219,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								147,
-								147
+								219,
+								219
 							]
 						],
 						"settings":
@@ -429,6 +432,32 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "example_user.rb",
+					"settings":
+					{
+						"buffer_size": 204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204,
+								204
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -461,7 +490,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.484797297297,
 			1.0
 		],
 		"rows":
@@ -485,6 +514,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"exampl",
+				"example_user.rb"
+			],
 			[
 				"example",
 				"example_user.rb"
